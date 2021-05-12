@@ -53,8 +53,8 @@
             <label for = "one">
               <span class="menu_span">USŁUGI <img src="images/sharp.svg"></span>
                 <ul class = "submenu">
-                  <li><a class="submenu"href="https://humanworklogistic.pl/services.php#out_log">OUTSOURCING LOGISTYCZNY</a></li>
-                  <li><a class="submenu"href="https://humanworklogistic.pl/services.php#out_prod">OUTSOURCING PRODUKCYJNY</a></li>
+                  <li><a class="submenu"href="https://humanworklogistic.pl/services.php#out_log" onclick="window.location.reload(true);">OUTSOURCING LOGISTYCZNY</a></li>
+                  <li><a class="submenu"href="https://humanworklogistic.pl/services.php#out_prod" onclick="window.location.reload(true);">OUTSOURCING PRODUKCYJNY</a></li>
                 </ul>
             </label>
 
