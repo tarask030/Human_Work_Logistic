@@ -20,17 +20,17 @@
 
       <div class="hamburger">
         <ul class="main-menu">
-          <li><a href="#url">START</a></li>
+          <li><a href="index.php">START</a></li>
           <li class="menu-children">
-              <a href="#url">USŁUGI</a>
+              <a href="services.php">USŁUGI</a>
               <ul>
-                  <li><a href="#url">OUTSOURCING LOGISTYCZNY</a></li>
-                  <li><a href="#url">OUTSOURCING PRODUKCYJNY</a></li>         
+                  <li><a href="services.php">OUTSOURCING LOGISTYCZNY</a></li>
+                  <li><a href="services.php">OUTSOURCING PRODUKCYJNY</a></li>         
               </ul>
           </li>
-          <li><a href="#url">STREFA KLIENTA</a></li>
-          <li><a href="#url">O NAS</a></li>
-          <li class="active"><a href="#url">BLOG</a></li>       
+          <li><a href="client_zone.php">STREFA KLIENTA</a></li>
+          <li><a href="aboutus.php">O NAS</a></li>
+          <li class="active"><a href="#">BLOG</a></li>       
         </ul>
       </div>
 
@@ -46,19 +46,19 @@
             <div class="logo_header">
               <img src="logo/logo_header.svg" alt="">
             </div>
-            <li><a class="menu_item_first" href="#">START</a></li>
+            <li><a class="menu_item_first" href="index.php">START</a></li>
 
             <input type = "checkbox" name = "one" id = "one">
             <label for = "one">
               <span class="menu_span">USŁUGI <img src="images/sharp.svg"></span>
                 <ul class = "submenu">
-                  <li><a class="submenu"href="#">OUTSOURCING LOGISTYCZNY</a></li>
-                  <li><a class="submenu"href="#">OUTSOURCING PRODUKCYJNY</a></li>
+                  <li><a class="submenu"href="services.php">OUTSOURCING LOGISTYCZNY</a></li>
+                  <li><a class="submenu"href="services.php">OUTSOURCING PRODUKCYJNY</a></li>
                 </ul>
             </label>
 
-            <li><a class="menu__item_second" href="#">STREFA KLIENTA</a></li>        
-            <li><a class="menu__item" href="#">O NAS</a></li>
+            <li><a class="menu__item_second" href="client_none.php">STREFA KLIENTA</a></li>        
+            <li><a class="menu__item" href="aboutus.php">O NAS</a></li>
             <li><a class="menu__item" href="#">BLOG</a></li>
           </ul>
       </div>
