@@ -12,11 +12,11 @@ setTimeout(() => {
   }
 }, 2000);
 
-
+const mediaQuery = window.matchMedia('(min-width: 992px)')
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+  if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80 && mediaQuery.matches) {
     document.getElementById("header").style.height = "90px";
     document.getElementById("header").style.marginTop = "-17px";
   } else {
