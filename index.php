@@ -24,8 +24,8 @@
           <li class="menu-children">
               <a href="services.php">USŁUGI</a>
               <ul>
-                  <li><a href="#">OUTSOURCING LOGISTYCZNY</a></li>
-                  <li><a href="#url">OUTSOURCING PRODUKCYJNY</a></li>         
+                  <li><a href="services.php">OUTSOURCING LOGISTYCZNY</a></li>
+                  <li><a href="services.php">OUTSOURCING PRODUKCYJNY</a></li>         
               </ul>
           </li>
           <li><a href="client_zone.php">STREFA KLIENTA</a></li>
