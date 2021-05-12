@@ -178,6 +178,7 @@
           </p>
         </div>
       </div>
+      <p><a name="form_contact_index"></a></p>
       <form action="mail.php" method="POST">
         <input type="text" name="user_name" placeholder="Imię i nazwisko" class="form-control" required />
         <input type="text" name="user_email" placeholder="Adress e-mail" class="form-control" type="email" required />
