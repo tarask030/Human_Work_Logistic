@@ -211,7 +211,7 @@
       </p>
       <p><a name="out_prod"></a></p>
       <div class="btn_contact_us">
-        <a>SKONTAKTUJ SIĘ Z NAMI</a>
+        <a href = "https://humanworklogistic.pl/index.php#form_contact_index">SKONTAKTUJ SIĘ Z NAMI</a>
       </div>
     </div>
     
@@ -293,7 +293,7 @@
         Chcesz zacząć oszczędzać i potrzebujesz logistycznego wsparcia?
       </p>
       <div class="btn_contact_us">
-        <a>SKONTAKTUJ SIĘ Z NAMI</a>
+        <a href = "https://humanworklogistic.pl/index.php#form_contact_index">SKONTAKTUJ SIĘ Z NAMI</a>
       </div>
     </div>
 
