@@ -42,7 +42,8 @@ body{
 }
 .logo_header{
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 8px;
     float: left;
     img{
         width: 220px;
@@ -1411,7 +1412,7 @@ input[type="text"]::-webkit-input-placeholder {
     right: 0;
 }
 .menu__btn {
-    margin-top: 20px;
+    margin-top: 12px;
     display: flex;
     align-items: center;
     position: fixed;
