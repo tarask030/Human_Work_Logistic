@@ -24,8 +24,8 @@
           <li class="menu-children">
               <a href="services.php">USŁUGI</a>
               <ul>
-                  <li><a href="services.php">OUTSOURCING LOGISTYCZNY</a></li>
-                  <li><a href="services.php">OUTSOURCING PRODUKCYJNY</a></li>         
+                  <li><a href="https://humanworklogistic.pl/services.php#out_log">OUTSOURCING LOGISTYCZNY</a></li>
+                  <li><a href="https://humanworklogistic.pl/services.php#out_prod">OUTSOURCING PRODUKCYJNY</a></li>         
               </ul>
           </li>
           <li><a href="client_zone.php">STREFA KLIENTA</a></li>
@@ -52,8 +52,8 @@
             <label for = "one">
               <span class="menu_span">USŁUGI <img src="images/sharp.svg"></span>
                 <ul class = "submenu">
-                  <li><a class="submenu"href="services.php">OUTSOURCING LOGISTYCZNY</a></li>
-                  <li><a class="submenu"href="services.php">OUTSOURCING PRODUKCYJNY</a></li>
+                  <li><a class="submenu"href="https://humanworklogistic.pl/services.php#out_log">OUTSOURCING LOGISTYCZNY</a></li>
+                  <li><a class="submenu"href="https://humanworklogistic.pl/services.php#out_prod">OUTSOURCING PRODUKCYJNY</a></li>
                 </ul>
             </label>
 
