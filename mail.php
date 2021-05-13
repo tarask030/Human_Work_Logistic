@@ -36,6 +36,6 @@ $mail->AltBody = '';
 if(!$mail->send()) {
     echo 'Error';
 } else {
-    header('location: index.php');
+    header('location: thanku.php');
 }
 ?>
