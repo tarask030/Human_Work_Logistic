@@ -1290,6 +1290,25 @@ picture img {
   }
 }
 
+.social_icons_tanku {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 150px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 115px;
+}
+
+@media only screen and (min-width: 992px) {
+  .social_icons_tanku {
+    width: 235px;
+    height: 65px;
+    margin-top: 150px;
+  }
+}
+
 .social_footer {
   margin-left: 10px;
   margin-right: 10px;
@@ -3781,6 +3800,22 @@ input:checked + label {
   }
 }
 
+.thanku_name {
+  width: 160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.thanku_name h1 {
+  width: 190px;
+}
+
+@media only screen and (min-width: 992px) {
+  .thanku_name {
+    width: 280px;
+  }
+}
+
 .btn_header_image_blog {
   margin-left: auto;
   margin-right: auto;
@@ -3813,6 +3848,42 @@ input:checked + label {
     width: 170px;
   }
   .btn_header_image_blog a {
+    font-size: 20px;
+  }
+}
+
+.btn_header_image_thanku {
+  margin-left: auto;
+  margin-right: auto;
+  width: 140px;
+  margin-top: 70px;
+}
+
+.btn_header_image_thanku a {
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  margin-top: 40px;
+  background-color: #00ACDA;
+  color: #FFFFFF;
+  border: 3px solid #00ACDA;
+  border-color: #00ACDA;
+  text-decoration: none;
+  padding: 6px 15px 6px 15px;
+  border-radius: 100px;
+}
+
+.btn_header_image_thanku a:hover {
+  background-color: #07c8fd;
+  border-color: #07c8fd;
+  color: #FFFFFF;
+}
+
+@media only screen and (min-width: 992px) {
+  .btn_header_image_thanku {
+    width: 205px;
+  }
+  .btn_header_image_thanku a {
     font-size: 20px;
   }
 }
