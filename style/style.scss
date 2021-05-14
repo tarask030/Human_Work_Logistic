@@ -28,7 +28,11 @@ body{
     background-size: 600px;
     background-position: center;
     font-family: 'Roboto', sans-serif;
+    @include responsive(large_pc){
+        background-size: 1400px;
+    }
 }
+
 //header main
 #header{
    position: fixed;
