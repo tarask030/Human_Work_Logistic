@@ -31,7 +31,7 @@
           </li>
           <li><a href="client_zone.php">STREFA KLIENTA</a></li>
           <li><a href="aboutus.php">O NAS</a></li>
-          <li><a href="blog.php">BLOG</a></li>       
+          <li><a href="https://blog.humanworklogistic.pl/">BLOG</a></li>       
         </ul>
       </div>
 
@@ -59,7 +59,7 @@
 
             <li><a class="menu__item_second" href="client_zone.php">STREFA KLIENTA</a></li>        
             <li><a class="menu__item" href="aboutus.php">O NAS</a></li>
-            <li><a class="menu__item" href="blog.php">BLOG</a></li>
+            <li><a class="menu__item" href="https://blog.humanworklogistic.pl/">BLOG</a></li>
           </ul>
       </div>
 
