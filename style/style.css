@@ -10,7 +10,7 @@ body {
   background-attachment: fixed;
   background-size: 600px;
   background-position: center;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -120,6 +120,7 @@ body {
 picture {
   display: inline-block;
   background-color: #000000;
+  width: 100%;
 }
 
 picture img {
@@ -145,23 +146,18 @@ picture img {
 @media only screen and (min-width: 992px) {
   picture {
     display: inline-block;
-    /* Строчно-блочный элемент */
     overflow: hidden;
-    /* Скрываем всё за контуром */
     display: inline-block;
     background-color: #000000;
   }
   picture img {
     -webkit-transition: 1s;
     transition: 1s;
-    /* Время эффекта */
     display: block;
-    /* Убираем небольшой отступ снизу */
   }
   picture img:hover {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-    /* Увеличиваем масштаб */
   }
   picture img {
     margin-top: 0px;
@@ -179,6 +175,18 @@ picture img {
   picture img {
     width: 100%;
     height: 850px;
+    opacity: 0.4;
+  }
+}
+
+@media only screen and (min-width: 1980px) {
+  picture {
+    display: inline-block;
+    background-color: #000000;
+  }
+  picture img {
+    width: 100%;
+    height: 1100px;
     opacity: 0.4;
   }
 }
@@ -203,7 +211,7 @@ picture img {
 }
 
 .text_on_image_main strong {
-  color: #00ACDA;
+  color: #00acda;
   font-style: normal;
   font-size: 30px;
 }
@@ -257,6 +265,13 @@ picture img {
 @media only screen and (min-width: 1200px) {
   .text_on_image_main {
     margin-top: -350px;
+  }
+}
+
+@media only screen and (min-width: 1980px) {
+  .text_on_image_main {
+    margin-top: -510px;
+    margin-bottom: 400px;
   }
 }
 
@@ -336,10 +351,10 @@ picture img {
   font-size: 12px;
   font-weight: 500;
   margin-top: 40px;
-  background-color: #00ACDA;
-  color: #FFFFFF;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  background-color: #00acda;
+  color: #ffffff;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 6px 15px 6px 15px;
   border-radius: 100px;
@@ -348,7 +363,7 @@ picture img {
 .btn_header_image a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -382,10 +397,10 @@ picture img {
   font-size: 12px;
   font-weight: 500;
   margin-top: 40px;
-  background-color: #00ACDA;
-  color: #FFFFFF;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  background-color: #00acda;
+  color: #ffffff;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 6px 15px 6px 15px;
   border-radius: 100px;
@@ -394,7 +409,7 @@ picture img {
 .btn_header_image_services a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 992px) {
@@ -420,18 +435,18 @@ picture img {
   font-weight: 700;
   margin-top: 40px;
   background-color: #ffffff;
-  color: #00ACDA;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  color: #00acda;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 15px 10px 15px;
   border-radius: 100px;
 }
 
 .btn_outsourcing a:hover {
-  background-color: #00ACDA;
-  border-color: #00ACDA;
-  color: #FFFFFF;
+  background-color: #00acda;
+  border-color: #00acda;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -446,15 +461,15 @@ picture img {
 
 @media only screen and (min-width: 992px) {
   .btn_outsourcing a {
-    background-color: #00ACDA;
+    background-color: #00acda;
     color: #ffffff;
-    border: 3px solid #00ACDA;
-    border-color: #00ACDA;
+    border: 3px solid #00acda;
+    border-color: #00acda;
   }
   .btn_outsourcing a:hover {
     background-color: #ffffff;
-    border-color: #00ACDA;
-    color: #00ACDA;
+    border-color: #00acda;
+    color: #00acda;
   }
 }
 
@@ -471,10 +486,10 @@ picture img {
     font-size: 20px;
     font-weight: 500;
     margin-top: 40px;
-    background-color: #00ACDA;
-    color: #FFFFFF;
-    border: 3px solid #00ACDA;
-    border-color: #00ACDA;
+    background-color: #00acda;
+    color: #ffffff;
+    border: 3px solid #00acda;
+    border-color: #00acda;
     text-decoration: none;
     padding: 18px 35px 16px 35px;
     border-radius: 100px;
@@ -482,7 +497,7 @@ picture img {
   .btn_outsourcing a:hover {
     background-color: #07c8fd;
     border-color: #07c8fd;
-    color: #FFFFFF;
+    color: #ffffff;
   }
 }
 
@@ -499,18 +514,18 @@ picture img {
   font-weight: 700;
   margin-top: 40px;
   background-color: #ffffff;
-  color: #00ACDA;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  color: #00acda;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 12px 10px 12px;
   border-radius: 100px;
 }
 
 .btn_produkcyjny a:hover {
-  background-color: #00ACDA;
-  border-color: #00ACDA;
-  color: #FFFFFF;
+  background-color: #00acda;
+  border-color: #00acda;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 768px) {
@@ -537,17 +552,17 @@ picture img {
     font-weight: 500;
     margin-top: 40px;
     background-color: #ffffff;
-    color: #00ACDA;
+    color: #00acda;
     border: 3px solid #ffffff;
-    border-color: #00ACDA;
+    border-color: #00acda;
     text-decoration: none;
     padding: 18px 35px 16px 35px;
     border-radius: 100px;
   }
   .btn_produkcyjny a:hover {
-    background-color: #00ACDA;
-    border-color: #00ACDA;
-    color: #FFFFFF;
+    background-color: #00acda;
+    border-color: #00acda;
+    color: #ffffff;
   }
 }
 
@@ -563,10 +578,10 @@ picture img {
   font-size: 16px;
   font-weight: 700;
   margin-top: 40px;
-  background-color: #00ACDA;
+  background-color: #00acda;
   color: #ffffff;
   border: 3px solid;
-  border-color: #00ACDA;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 42px 10px 42px;
   border-bottom-left-radius: 30px;
@@ -576,7 +591,7 @@ picture img {
 .btn_produkcyjny_circle a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn_outsourcing_circle {
@@ -592,10 +607,10 @@ picture img {
   font-size: 16px;
   font-weight: 700;
   margin-top: 40px;
-  background-color: #00ACDA;
+  background-color: #00acda;
   color: #ffffff;
   border: 3px solid;
-  border-color: #00ACDA;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 46px 10px 45px;
   border-bottom-left-radius: 30px;
@@ -605,7 +620,7 @@ picture img {
 .btn_outsourcing_circle a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .image_btn {
@@ -644,31 +659,31 @@ picture img {
 .image_btn:hover .btn_outsourcing_circle a {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .image_btn:hover .btn_produkcyjny_circle a {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .image_btn:hover .btn_firm_circle a {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .image_btn:hover .btn_how_circle a {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .image_btn:hover .btn_application_circle a {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 992px) {
@@ -1049,7 +1064,7 @@ picture img {
 .description_benefits h2 {
   margin-top: 60px;
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-left: auto;
   margin-right: auto;
   width: 340px;
@@ -1090,7 +1105,7 @@ picture img {
 .description_services h2 {
   margin-top: 60px;
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1143,7 +1158,7 @@ picture img {
 
 @media only screen and (min-width: 1200px) {
   h3 {
-    color: #00ACDA;
+    color: #00acda;
     margin-left: auto;
     margin-right: auto;
     width: 980px;
@@ -1190,7 +1205,7 @@ picture img {
 }
 
 .form_block_name h2 strong {
-  color: #00ACDA;
+  color: #00acda;
 }
 
 @media only screen and (min-width: 768px) {
@@ -1218,7 +1233,7 @@ picture img {
     width: 335px;
   }
   .form_block_name h2 strong {
-    color: #00ACDA;
+    color: #00acda;
   }
 }
 
@@ -1273,8 +1288,8 @@ picture img {
     font-size: 20px;
     font-weight: 200;
     text-decoration: none;
-    -webkit-transition-duration: .25s;
-            transition-duration: .25s;
+    -webkit-transition-duration: 0.25s;
+            transition-duration: 0.25s;
   }
 }
 
@@ -1370,12 +1385,12 @@ form {
   }
 }
 
-input[type=submit] {
+input[type="submit"] {
   cursor: pointer;
 }
 
 input[type="text"]::-webkit-input-placeholder {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #ccc;
   font-weight: 400;
   font-size: 16px;
@@ -1391,14 +1406,14 @@ input.form-control {
   display: block;
   font-size: 18px;
   font-weight: 300;
-  color: #00ACDA;
+  color: #00acda;
   padding-left: 20px;
   padding-right: 20px;
   margin-bottom: 20px;
-  background-color: #00ACDA;
+  background-color: #00acda;
   background: #ffffff;
   border-radius: 15px;
-  border: solid #00ACDA;
+  border: solid #00acda;
   border-width: 2px;
 }
 
@@ -1409,11 +1424,11 @@ input.form-control {
     display: block;
     font-size: 18px;
     font-weight: 300;
-    color: #00ACDA;
+    color: #00acda;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 20px;
-    background-color: #00ACDA;
+    background-color: #00acda;
     border-radius: 20px;
     background: #ffffff;
     padding-left: 25px;
@@ -1438,18 +1453,18 @@ button.btn {
   border-radius: 30px;
   font-size: 20px;
   font-weight: 600;
-  border: solid #00ACDA;
+  border: solid #00acda;
   border-width: 2px;
   cursor: pointer;
 }
 
 button.btn span {
   margin-top: 12px;
-  color: #00ACDA;
+  color: #00acda;
 }
 
 button.btn:hover {
-  background-color: #00ACDA;
+  background-color: #00acda;
 }
 
 button.btn:hover span {
@@ -1474,15 +1489,15 @@ button.btn:hover span {
     border-radius: 30px;
     font-size: 20px;
     font-weight: 600;
-    border: solid #00ACDA;
+    border: solid #00acda;
     border-width: 2px;
   }
   button.btn span {
     margin-top: 18px;
-    color: #00ACDA;
+    color: #00acda;
   }
   button.btn:hover {
-    background-color: #00ACDA;
+    background-color: #00acda;
   }
   button.btn:hover span {
     color: #ffffff;
@@ -1496,7 +1511,7 @@ button.btn:hover span {
 }
 
 .che a {
-  color: #00ACDA;
+  color: #00acda;
 }
 
 .che a:hover {
@@ -1510,8 +1525,8 @@ textarea::-webkit-input-placeholder {
 }
 
 textarea {
-  font-family: 'Roboto', sans-serif;
-  border: solid #00ACDA;
+  font-family: "Roboto", sans-serif;
+  border: solid #00acda;
   border-width: 2px;
   background: #ffffff;
   resize: none;
@@ -1519,7 +1534,7 @@ textarea {
   height: 250px;
   font-size: 18px;
   font-weight: 400;
-  color: #00ACDA;
+  color: #00acda;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 12px;
@@ -1583,18 +1598,18 @@ textarea {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #00ACDA;
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
+  background-color: #00acda;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
 }
 
 .menu__btn > span::before {
-  content: '';
+  content: "";
   top: -8px;
 }
 
 .menu__btn > span::after {
-  content: '';
+  content: "";
   top: 8px;
 }
 
@@ -1616,8 +1631,8 @@ textarea {
   background-position: center;
   -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
 }
 
 .menu__box input {
@@ -1685,11 +1700,11 @@ textarea {
   height: 100%;
   margin: 0;
   list-style: none;
-  background-color: #ECEFF1;
+  background-color: #eceff1;
   -webkit-box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
           box-shadow: 1px 0px 6px rgba(0, 0, 0, 0.2);
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
 }
 
 .menu__item {
@@ -1699,8 +1714,8 @@ textarea {
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
 }
 
 .menu_item_first {
@@ -1710,8 +1725,8 @@ textarea {
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
   margin-top: 90px;
 }
 
@@ -1725,8 +1740,8 @@ textarea {
   font-size: 20px;
   font-weight: 700;
   text-decoration: none;
-  -webkit-transition-duration: .25s;
-          transition-duration: .25s;
+  -webkit-transition-duration: 0.25s;
+          transition-duration: 0.25s;
 }
 
 .logo_menu {
@@ -1777,7 +1792,7 @@ input:checked + label .submenu_production {
 }
 
 input:checked + label .submenu_production a:hover {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
 }
 
@@ -1817,7 +1832,7 @@ input:checked + label .submenu {
 }
 
 input:checked + label .submenu a:hover {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
 }
 
@@ -1831,7 +1846,7 @@ input:checked + label .submenu a:hover {
 }
 
 input:checked + label {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
 }
 
@@ -1874,7 +1889,7 @@ input:checked + label {
 }
 
 .text_on_image_outourcing em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -2108,18 +2123,18 @@ input:checked + label {
   font-weight: 700;
   margin-top: 40px;
   background-color: #ffffff;
-  color: #00ACDA;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  color: #00acda;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 15px 10px 15px;
   border-radius: 100px;
 }
 
 .btn_contact_us a:hover {
-  background-color: #00ACDA;
-  border-color: #00ACDA;
-  color: #FFFFFF;
+  background-color: #00acda;
+  border-color: #00acda;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 992px) {
@@ -2136,7 +2151,7 @@ input:checked + label {
   width: 305px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #00ACDA;
+  border: 3px solid #00acda;
   border-radius: 40px;
   margin-top: 50px;
 }
@@ -2154,7 +2169,7 @@ input:checked + label {
 }
 
 .frame_responsibility em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -2164,7 +2179,7 @@ input:checked + label {
   width: 305px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #00ACDA;
+  border: 3px solid #00acda;
   border-radius: 40px;
   margin-top: 50px;
 }
@@ -2182,7 +2197,7 @@ input:checked + label {
 }
 
 .frame_organization em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -2192,7 +2207,7 @@ input:checked + label {
   width: 305px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #00ACDA;
+  border: 3px solid #00acda;
   border-radius: 40px;
   margin-top: 50px;
 }
@@ -2210,7 +2225,7 @@ input:checked + label {
 }
 
 .frame_contol em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -2220,7 +2235,7 @@ input:checked + label {
   width: 305px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #00ACDA;
+  border: 3px solid #00acda;
   border-radius: 40px;
   margin-top: 50px;
 }
@@ -2238,7 +2253,7 @@ input:checked + label {
 }
 
 .frame_resources em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -2248,7 +2263,7 @@ input:checked + label {
   width: 305px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #00ACDA;
+  border: 3px solid #00acda;
   border-radius: 40px;
   margin-top: 50px;
 }
@@ -2266,7 +2281,7 @@ input:checked + label {
 }
 
 .frame_optimization em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -2303,10 +2318,10 @@ input:checked + label {
   font-size: 12px;
   font-weight: 500;
   margin-top: 40px;
-  background-color: #00ACDA;
-  color: #FFFFFF;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  background-color: #00acda;
+  color: #ffffff;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 6px 15px 6px 15px;
   border-radius: 100px;
@@ -2315,7 +2330,7 @@ input:checked + label {
 .btn_header_image_client_zone a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 992px) {
@@ -2355,10 +2370,10 @@ input:checked + label {
   font-size: 16px;
   font-weight: 700;
   margin-top: 40px;
-  background-color: #00ACDA;
+  background-color: #00acda;
   color: #ffffff;
   border: 3px solid;
-  border-color: #00ACDA;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 42px 10px 42px;
   border-bottom-left-radius: 30px;
@@ -2368,7 +2383,7 @@ input:checked + label {
 .btn_firm_circle a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn_how_circle {
@@ -2384,10 +2399,10 @@ input:checked + label {
   font-size: 16px;
   font-weight: 700;
   margin-top: 40px;
-  background-color: #00ACDA;
+  background-color: #00acda;
   color: #ffffff;
   border: 3px solid;
-  border-color: #00ACDA;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 95px 10px 95px;
   border-bottom-left-radius: 30px;
@@ -2397,7 +2412,7 @@ input:checked + label {
 .btn_how_circle a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .btn_application_circle {
@@ -2413,10 +2428,10 @@ input:checked + label {
   font-size: 16px;
   font-weight: 700;
   margin-top: 40px;
-  background-color: #00ACDA;
+  background-color: #00acda;
   color: #ffffff;
   border: 3px solid;
-  border-color: #00ACDA;
+  border-color: #00acda;
   text-decoration: none;
   padding: 10px 70px 10px 70px;
   border-bottom-left-radius: 30px;
@@ -2426,7 +2441,7 @@ input:checked + label {
 .btn_application_circle a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .benefits_block_name {
@@ -2489,7 +2504,7 @@ input:checked + label {
 
 .list_benefit ul li {
   margin-top: 27px;
-  color: #00ACDA;
+  color: #00acda;
   /* Цвет маркеров */
 }
 
@@ -2500,7 +2515,7 @@ input:checked + label {
 
 .list_benefit ul li span em {
   font-style: normal;
-  color: #00ACDA;
+  color: #00acda;
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
@@ -2540,7 +2555,7 @@ input:checked + label {
 
 .thanku_text em {
   font-style: normal;
-  color: #00ACDA;
+  color: #00acda;
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
@@ -2571,7 +2586,7 @@ input:checked + label {
 
 .thanku_text_header em {
   font-style: normal;
-  color: #00ACDA;
+  color: #00acda;
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
@@ -2713,7 +2728,7 @@ input:checked + label {
 
 .how_text em {
   font-style: normal;
-  color: #00ACDA;
+  color: #00acda;
   margin-left: auto;
   margin-right: auto;
   font-size: 16px;
@@ -2767,7 +2782,7 @@ input:checked + label {
 .first_etap_text p {
   font-size: 16px;
   font-weight: 700;
-  color: #00ACDA;
+  color: #00acda;
 }
 
 @media only screen and (min-width: 992px) {
@@ -2781,7 +2796,7 @@ input:checked + label {
   .first_etap_text_in_image p {
     font-size: 20px;
     font-weight: 700;
-    color: #00ACDA;
+    color: #00acda;
   }
 }
 
@@ -2798,7 +2813,7 @@ input:checked + label {
 .second_etap_text p {
   font-size: 16px;
   font-weight: 700;
-  color: #00ACDA;
+  color: #00acda;
   height: 50px;
   padding-top: 15px;
 }
@@ -2814,7 +2829,7 @@ input:checked + label {
   .second_etap_text_on_image p {
     font-size: 20px;
     font-weight: 700;
-    color: #00ACDA;
+    color: #00acda;
   }
 }
 
@@ -3141,12 +3156,12 @@ input:checked + label {
   width: 305px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #00ACDA;
+  border: 3px solid #00acda;
   border-radius: 40px;
   margin-top: -35px;
   z-index: 5;
   position: relative;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .frame_how p {
@@ -3162,7 +3177,7 @@ input:checked + label {
 }
 
 .frame_how em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -3271,12 +3286,12 @@ input:checked + label {
   width: 305px;
   margin-left: auto;
   margin-right: auto;
-  border: 3px solid #00ACDA;
+  border: 3px solid #00acda;
   border-radius: 40px;
   margin-top: -35px;
   z-index: 5;
   position: relative;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
 }
 
 .frame_how_one_string p {
@@ -3292,7 +3307,7 @@ input:checked + label {
 }
 
 .frame_how_one_string em {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
   font-style: normal;
 }
@@ -3420,7 +3435,7 @@ input:checked + label {
 
 .loup h2 {
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3435,7 +3450,7 @@ input:checked + label {
   }
   .loup h2 {
     font-size: 16px;
-    color: #00ACDA;
+    color: #00acda;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -3456,7 +3471,7 @@ input:checked + label {
 
 .say h2 {
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3471,7 +3486,7 @@ input:checked + label {
   }
   .say h2 {
     font-size: 16px;
-    color: #00ACDA;
+    color: #00acda;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -3492,7 +3507,7 @@ input:checked + label {
 
 .clock h2 {
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3507,7 +3522,7 @@ input:checked + label {
   }
   .clock h2 {
     font-size: 16px;
-    color: #00ACDA;
+    color: #00acda;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -3528,7 +3543,7 @@ input:checked + label {
 
 .graph h2 {
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3543,7 +3558,7 @@ input:checked + label {
   }
   .graph h2 {
     font-size: 16px;
-    color: #00ACDA;
+    color: #00acda;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -3564,7 +3579,7 @@ input:checked + label {
 
 .screen h2 {
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3579,7 +3594,7 @@ input:checked + label {
   }
   .screen h2 {
     font-size: 16px;
-    color: #00ACDA;
+    color: #00acda;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -3600,7 +3615,7 @@ input:checked + label {
 
 .star h2 {
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3615,7 +3630,7 @@ input:checked + label {
   }
   .star h2 {
     font-size: 16px;
-    color: #00ACDA;
+    color: #00acda;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -3636,7 +3651,7 @@ input:checked + label {
 
 .database h2 {
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -3651,7 +3666,7 @@ input:checked + label {
   }
   .database h2 {
     font-size: 16px;
-    color: #00ACDA;
+    color: #00acda;
     margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
@@ -3695,10 +3710,10 @@ input:checked + label {
   font-size: 12px;
   font-weight: 500;
   margin-top: 40px;
-  background-color: #00ACDA;
-  color: #FFFFFF;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  background-color: #00acda;
+  color: #ffffff;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 6px 15px 6px 15px;
   border-radius: 100px;
@@ -3707,7 +3722,7 @@ input:checked + label {
 .btn_header_image_about_us a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 992px) {
@@ -3751,7 +3766,7 @@ input:checked + label {
   margin-top: -35px;
   z-index: 5;
   position: relative;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   padding-top: 10px;
 }
 
@@ -3766,7 +3781,7 @@ input:checked + label {
 .frame_about_us h2 {
   margin-top: 33px;
   font-size: 16px;
-  color: #00ACDA;
+  color: #00acda;
   margin-left: auto;
   margin-right: auto;
   width: 260px;
@@ -3834,10 +3849,10 @@ input:checked + label {
   font-size: 12px;
   font-weight: 500;
   margin-top: 40px;
-  background-color: #00ACDA;
-  color: #FFFFFF;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  background-color: #00acda;
+  color: #ffffff;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 6px 15px 6px 15px;
   border-radius: 100px;
@@ -3846,7 +3861,7 @@ input:checked + label {
 .btn_header_image_blog a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 992px) {
@@ -3870,10 +3885,10 @@ input:checked + label {
   font-size: 12px;
   font-weight: 500;
   margin-top: 40px;
-  background-color: #00ACDA;
-  color: #FFFFFF;
-  border: 3px solid #00ACDA;
-  border-color: #00ACDA;
+  background-color: #00acda;
+  color: #ffffff;
+  border: 3px solid #00acda;
+  border-color: #00acda;
   text-decoration: none;
   padding: 6px 15px 6px 15px;
   border-radius: 100px;
@@ -3882,7 +3897,7 @@ input:checked + label {
 .btn_header_image_thanku a:hover {
   background-color: #07c8fd;
   border-color: #07c8fd;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media only screen and (min-width: 992px) {
@@ -3922,12 +3937,12 @@ input:checked + label {
   font-size: 16px;
   font-weight: 700;
   margin-top: 40px;
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   text-decoration: none;
   padding: 10px 116px 100px 116px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
-  color: #00ACDA;
+  color: #00acda;
 }
 
 .feeld_blog a:hover {
@@ -3979,7 +3994,7 @@ input:checked + label {
 }
 
 .cookies_block p a {
-  color: #00ACDA;
+  color: #00acda;
 }
 
 .btn_cookies {
@@ -3989,7 +4004,7 @@ input:checked + label {
 }
 
 .cookie-btn {
-  background: #00ACDA;
+  background: #00acda;
   border: 0;
   color: #f5f6fa;
   padding: 12px 48px;
@@ -4067,19 +4082,19 @@ input:checked + label {
 
 .main-menu > li > a:hover {
   text-decoration: none;
-  color: #00ACDA;
+  color: #00acda;
 }
 
 .main-menu > li > a:after {
   width: 0;
   height: 3px;
-  background-color: #00ACDA;
-  content: '';
+  background-color: #00acda;
+  content: "";
   left: 0;
   bottom: 10px;
   position: absolute;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .main-menu > li > a:hover::after {
@@ -4103,7 +4118,7 @@ input:checked + label {
 .main-menu li.menu-children:after {
   position: absolute;
   content: "\2039";
-  color: #00ACDA;
+  color: #00acda;
   font-size: 20px;
   font-weight: bold;
   right: -12px;
@@ -4115,7 +4130,7 @@ input:checked + label {
 .main-menu li li.menu-children:after {
   position: absolute;
   content: "\2039";
-  color: #FFF;
+  color: #fff;
   font-size: 20px;
   font-weight: bold;
   right: 10px;
@@ -4165,15 +4180,15 @@ input:checked + label {
   display: block;
   color: #000;
   padding: 10px;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
   text-decoration: none;
 }
 
 .main-menu ul li a:hover {
-  color: #00ACDA;
+  color: #00acda;
   font-weight: 700;
-  background: #FFF;
+  background: #fff;
   text-decoration: none;
 }
 
